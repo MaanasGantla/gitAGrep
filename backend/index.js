@@ -97,9 +97,43 @@ app.get('/getbook', (req, res) => {
 
 
 app.get('/getbookexchanges', (req, res) => {
+    const {uuid, auth_token }  = req.body;
+
     res.json()
 });
 
+app.get('startbookexchange', (req, res) => {
+    const {user_uuid, auth_token} = req.body
+    //return book exchang json
+    res.json()
+    
+});
+
+app.get('chooseoffer', (req, res) => {
+    const {user_uuid, auth_token, exchange_uuid, book_uuid} = req.body
+    //return new current exchange json
+    res.json()
+});
+
+app.get('/confirmexchange', (req, res) => {
+    const {uuid, auth_token, exchange_uuid} = req.body
+    //return new current exchange json
+    res.json()
+
+});
+
+
+app.get('/confirmreexchange', (req, res) => {
+    
+    res.json()
+    
+});
+
+app.get('finishedreading', (req, res) => {
+    res.json()
+
+    
+});
 
 //First connect to the database. If that was successful,
 //open the server to listen for HTTP requests.
