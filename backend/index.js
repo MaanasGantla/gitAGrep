@@ -20,6 +20,14 @@ const app = express()
 let users = JSON.parse(fs.readFileSync('./data/users.json'));
 let emails = JSON.parse(fs.readFileSync('./data/emailconfirmation.json'))
 
+const EXCHANGE_STATE_REQUESTED = 1;
+const EXCHANGE_STATE_OFFER_REQUESTED = 2;
+const EXCHANGE_STATE_PENDING = 3;
+const EXCHANGE_STATE_EXCHANGED = 4;
+const EXCHANGE_STATE_RE_EXCHANGED = 5;
+
+
+
 connectDB()
 
 app.use(express.json())
