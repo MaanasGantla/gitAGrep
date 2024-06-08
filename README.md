@@ -112,5 +112,7 @@ From here the app should be ready to run :).
 - Node Scheduler: https://www.npmjs.com/package/node-schedule
 - Nodemailer: https://www.nodemailer.com
 - Materials UI: https://mui.com/material-ui/
+- Chat App with Socket.io: https://socket.io/get-started/private-messaging-part-1
 - How to Create a Express/Node + React Project | Node Backend + React Frontend [Video]. Youtube: https://www.youtube.com/watch?v=w3vs4a03y3I&t=322s
+- Basics of Chat Applications: https://www.youtube.com/watch?v=HwCqsOis894
 - Logo: https://community.ucla.edu/studentorg/4988 (All rights to this image are reserved by the original creator)
